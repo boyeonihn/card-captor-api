@@ -1,0 +1,105 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+html {
+  font-size: 16px; 
+}
+
+body * {
+  text-align: center; 
+}
+
+body {
+  font-family: 'Josefin Slab', serif; 
+  font-size: 1.5rem; 
+}
+
+
+
+
+
+  h1 {
+    font-size: 4rem; 
+    font-family: 'Ms Madi', cursive; 
+    color: #fe1080; 
+  }
+img{
+  display: none;
+  margin: 0 auto;
+}
+
+
+
+section {
+  padding: 0 8rem 0 8rem; 
+  width: 100%; 
+}
+
+  .generate {
+    width: 50%; 
+    margin: 0 auto; 
+    margin-top: 1rem; 
+    display: flex;
+    justify-content: center;
+  }
+
+  #randomCard {
+    margin-left: 30px;
+  }
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+/* button */
+
+button {
+  background-color: #ef1a7d;
+  border: 2px solid #fe1080;
+}
+
+
+/* heading */
+h3 {
+  display: none;
+  text-align: center; 
+
+}
+
+h2 {
+  font-weight: bold; 
+  color: #ef1a7d;
+}
+
+.float {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+p, label, a, h3 {
+  color: #01aaef;
+  font-weight: bold; 
+}
+
+a {
+  text-decoration: none; 
+}
+
+button {
+  color: #f5f3f4; 
+  font-weight: bold; 
+}
